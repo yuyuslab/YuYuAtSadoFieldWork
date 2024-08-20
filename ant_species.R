@@ -4,9 +4,9 @@ library(reshape2)
 
 install.packages("svglite")
 
-setwd("/Users/yujirokisu/Library/CloudStorage/OneDrive-東京都公立大学法人/TMU/ClassMaterials3-1/Sado_field_study/animal_2_ant_species")
+setwd("自分のディレクトリ")
 
-data <- read.csv("/Users/yujirokisu/Library/CloudStorage/OneDrive-東京都公立大学法人/TMU/ClassMaterials3-1/Sado_field_study/animal_2_ant_species/ant_species.csv")
+data <- read.csv("自分のcsvデータ。実習に参加した人は持ってる〜。")
 
 # 
 colnames(data) <- c("site", "species", "number")
